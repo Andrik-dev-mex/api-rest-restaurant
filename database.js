@@ -7,5 +7,6 @@ mongoose.connect(
     {
         useNewUrlParser: true,
         useCreateIndex: true,
+        useUnifiedTopology : true,
     }
 ).then(() => {console.log('Database is running');});
